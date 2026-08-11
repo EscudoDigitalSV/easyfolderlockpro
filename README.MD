@@ -1,7 +1,3 @@
-Aquí tienes el **`README.md`** completo para **EasyFolderLock Pro**, utilizando exactamente la misma estructura profesional, formato de badges, tablas de la imagen/plantilla y diseño GitHub Markdown:
-
----
-
 #  EasyFolderLock Pro
 
 > ## 🔐 Protección Avanzada de Carpetas mediante Cifrado Seguro para Windows
