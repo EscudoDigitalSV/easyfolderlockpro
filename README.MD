@@ -1,9 +1,9 @@
-#  EasyFolderLock Pro
+# <img src="https://escudodigitalsv.com/favicon.ico" width="32" height="32"> EasyFolderLock Pro
 
 > ## 🔐 Protección Avanzada de Carpetas mediante Cifrado Seguro para Windows
-> 
-> 
+>
 > **EasyFolderLock Pro** es la versión avanzada de EasyFolderLock, diseñada para usuarios y entornos profesionales que necesitan funciones adicionales de seguridad, integraciones con el sistema operativo y herramientas avanzadas para proteger, administrar y restaurar sus carpetas de forma ágil y cómoda.
+>
 > Comprime, cifra y empaqueta tus directorios en un archivo único `.lock` protegido mediante cifrado de grado militar.
 
 ---
@@ -13,15 +13,13 @@
 EasyFolderLock Pro incluye todas las funciones de la versión Free y añade herramientas avanzadas de administración e integración:
 
 ### 🔐 Protección Criptográfica
-
 * **Cifrado AES-GCM:** Protección simétrica de alta seguridad para la confidencialidad e integridad de tus datos.
 * **Derivación Robusta:** Uso de **Salt** y **Nonce** aleatorios por cada operación de cifrado.
-* **Formato EFL1:** Estructura de contenedor propia (*EasyFolderLock Format 1*) con verificación de integridad.
+* **Formato EFL1:** Estructura de contenedor propia (EasyFolderLock Format 1) con verificación de integridad.
 * **Protección Anti-sobrescritura:** Previene pérdidas accidentales durante el proceso de restauración.
 * **Compresión ZIP Integrada:** Optimiza el espacio comprimiendo los archivos antes de cifrarlos.
 
 ### 📂 Administración de Archivos y Menú Contextual
-
 * **Integración con Windows:** Opción para bloquear carpetas y desbloquear archivos `.lock` directamente desde el menú contextual del Explorador de Windows.
 * **Asociación de Archivos:** Apertura directa e integración nativa con archivos `.lock`.
 * **Arrastrar y Soltar (Drag & Drop):** Soporte intuitivo para cargar carpetas y contenedores al instante.
@@ -29,9 +27,8 @@ EasyFolderLock Pro incluye todas las funciones de la versión Free y añade herr
 * **Modo Invisible:** Opción para ocultar archivos `.lock` en el Explorador de Windows.
 
 ### ⚡ Funciones Avanzadas Pro
-
 * **Bloqueo Rápido:** Procesa y protege tus datos con un solo clic.
-* **Cofres Seguros y Historial:** Monitoreo y registro detallado de operaciones realizadas.
+* **Cofres Seguros e Historial:** Monitoreo y registro detallado de operaciones realizadas.
 * **Verificación Avanzada:** Comprobación de integridad del archivo antes de la extracción.
 * **Modo Portable:** Ejecución flexible en unidades extraíbles.
 
@@ -40,18 +37,10 @@ EasyFolderLock Pro incluye todas las funciones de la versión Free y añade herr
 # 🔒 ¿Cómo funciona?
 
 ### 📥 Proceso de Bloqueo
-
-```text
 Carpeta ➔ Compresión ZIP ➔ Cifrado AES-GCM ➔ Archivo protegido (.lock)
 
-```
-
 ### 📤 Proceso de Desbloqueo
-
-```text
 Archivo .lock ➔ Contraseña ➔ Verificación ➔ Descifrado ➔ Carpeta restaurada
-
-```
 
 ---
 
@@ -59,100 +48,208 @@ Archivo .lock ➔ Contraseña ➔ Verificación ➔ Descifrado ➔ Carpeta resta
 
 Los archivos protegidos por EasyFolderLock Pro utilizan una estructura de contenedor estructurada:
 
-$$\text{EFL1} + \text{Salt} + \text{Nonce} + \text{Datos cifrados}$$
+EFL1 + Salt + Nonce + Datos cifrados
 
-* **`EFL1`**: Cabecera identificadora de formato (*EasyFolderLock Format 1*).
+* **EFL1**: Cabecera identificadora de formato (EasyFolderLock Format 1).
 * **Extensión nativa:** `.lock` (Ejemplos: `Documentos.lock`, `Proyectos.lock`, `Fotos.lock`).
 
 ---
 
-# 💎 Comparativa de Licencias y Descarga
+# 💎 Comparativa y Descarga
+
+<table>
+<tr>
+<th>Funciones</th>
+<th>🆓 Gratis (Free)</th>
+<th>⭐ Versión Pro</th>
+</tr>
+
+<tr>
+<td>Cifrado AES-GCM & Formato EFL1</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Compresión ZIP previa</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Bloqueo y desbloqueo individual</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Arrastrar y soltar (Drag & Drop)</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Búsqueda y ocultación de archivos .lock</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Desbloqueo múltiple de archivos</td>
+<td align="center">✅</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Integración con el Menú Contextual de Windows</td>
+<td align="center">❌</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Bloqueo rápido & Asociación de archivos .lock</td>
+<td align="center">❌</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Verificación de integridad & Historial de operaciones</td>
+<td align="center">❌</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Cofres seguros & Modo Portable</td>
+<td align="center">❌</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td><b>Duración / Acceso</b></td>
+<td align="center"><b>GRATIS</b></td>
+<td align="center"><b>PARA SIEMPRE</b></td>
+</tr>
+
+<tr>
+<td><b>Acción</b></td>
+
+<td align="center">
+<a href="https://escudodigitalsv.com">
+<img src="https://img.shields.io/badge/PROBAR_GRATIS-blue?style=for-the-badge&logo=windows11&logoColor=white">
+</a>
+</td>
+
+<td align="center">
+<a href="https://escudodigitalsv.com">
+<img src="https://img.shields.io/badge/🛒_COMPRAR_AHORA-escudodigitalsv.com-blue?style=for-the-badge">
+</a>
+</td>
+
+</tr>
+
+</table>
 
 ---
 
----
-
-# 🔑 Sistema de Licencias y Prueba Gratuita
-
-EasyFolderLock Pro incluye un sistema de gestión de licencias digitales:
-
-* 🧪 **Prueba gratuita de 15 días:** Evalúa todas las funciones avanzadas Pro sin compromiso antes de adquirir una licencia.
-* 📅 **Opciones de Licencia:** Disponibilidad de licencias anuales o vitalicias (*Lifetime*).
-* 🔒 **Activación Segura:** Validación de licencia local/remota.
-
-> [!NOTE]
-> La licencia activa las herramientas y comodidades de la edición Pro, pero la seguridad criptográfica de tus archivos depende de la fortaleza de tu contraseña.
+<p align="center">
+  <a href="https://escudodigitalsv.com">
+    <img src="https://img.shields.io/github/downloads/escudodigitalsv/easyfolderlock/total?style=for-the-badge&color=28a745&logo=github" alt="Descargas">
+  </a>
+</p>
 
 ---
 
 # 🚀 Modo de Uso
 
 ### Bloquear una Carpeta
-
 1. Haz clic derecho sobre una carpeta y selecciona **Bloquear con EasyFolderLock Pro** (o ábrela desde la app).
 2. Ingresa y confirma tu contraseña.
 3. Configura las opciones avanzadas (conservar copia, ocultar `.lock`, etc.).
 4. Presiona **Bloquear**.
 
 ### Desbloquear una Carpeta
-
 1. Haz doble clic en el archivo `.lock` o selecciónalo en la aplicación.
 2. Ingresa tu contraseña.
 3. Elige la carpeta de destino para restaurar los archivos y confirma.
 
 ---
 
-# ⚠️ Importante / Notas de Seguridad
+# ⚠️ Nota de Seguridad
 
 > [!CAUTION]
-> **Conserva tu contraseña:** EasyFolderLock **NO** puede recuperar el contenido de un archivo `.lock` si olvidas la clave. Ni siquiera el soporte de licencias Pro puede ignorar o revertir el cifrado.
+> EasyFolderLock Pro interactúa directamente con el sistema de archivos de Windows para realizar el cifrado en tiempo real y la protección de datos.
+>
+> Debido a este comportamiento técnico y al uso de algoritmos de cifrado de bajo nivel, algunos antivirus o soluciones de seguridad pueden mostrar alertas preventivas o falsos positivos.
 
-> [!WARNING]
-> Se recomienda mantener copias de seguridad de datos críticos. Asegúrate de emplear contraseñas seguras y complejas.
+> [!NOTE]
+> EasyFolderLock Pro es un proyecto independiente en constante evolución.
+>
+> Esta versión oficial aún no cuenta con una firma digital de código (Code Signing Certificate), por lo que Windows SmartScreen puede mostrar advertencias preventivas al ejecutar el archivo descargado.
+>
+> Estas advertencias forman parte de las medidas de seguridad estándar de Windows y no indican la presencia de software malicioso.
+>
+> La incorporación de firma digital se encuentra prevista para futuras versiones del proyecto.
+
+---
+
+# 📥 Instalación y Advertencia de Windows SmartScreen
+
+> [!IMPORTANT]
+> Al descargar EasyFolderLock Pro, Windows puede mostrar la advertencia **"Windows protegió tu PC"**.
+>
+> Este comportamiento es normal cuando una aplicación descargada desde Internet aún no dispone de una firma digital reconocida por Microsoft.
+
+### Pasos para continuar
+
+1. Haz clic en **Más información**.
+2. Haz clic en **Ejecutar de todas formas**.
+3. Continúa con la instalación normalmente.
+
+<div align="center">
+
+<img src="https://github.com/escudodigitalsv/applockerpro/blob/aea72c6f141e471c3751d2afb4370da7f3b25cf3/img/SmartScreen.gif" alt="Cómo ejecutar EasyFolderLock Pro" width="250">
+
+</div>
+
+> [!TIP]
+> Este procedimiento generalmente solo es necesario la primera vez que se ejecuta el instalador.
 
 ---
 
 # 📦 Requisitos del Sistema
 
-| Requisito | Especificación |
-| --- | --- |
-| **Sistema Operativo** | Windows 10 o superior (x64) |
-| **Entorno de Ejecución** | Python 3.10+ (si se ejecuta desde el código fuente) |
-| **Librerías Requeridas** | `PyQt5`, `cryptography` |
-
-### Instalación de dependencias (Código fuente)
-
-```bash
-pip install PyQt5 cryptography
-
-```
+| Requisito         | Mínimo          |
+| :---------------- | :-------------- |
+| Sistema Operativo | Windows 10 / 11 |
+| Arquitectura      | x64             |
+| RAM               | 2 GB            |
+| Espacio en Disco  | 100 MB          |
+| Almacenamiento    | Unidad Local (NTFS / FAT32) |
+| Internet          | No requerido    |
 
 ---
 
 # 🐛 Reportar un Problema
 
-Si experimentas un error o falla en la aplicación, puedes abrir un **Issue** adjuntando:
-
-* Versión exacta de EasyFolderLock Pro.
-* Versión del sistema operativo Windows.
-* Pasos para reproducir el error.
-* Capturas de pantalla o mensajes de error recopilados.
+Si encuentras un error o comportamiento inesperado, puedes abrir un **Issue** indicando:
+* Versión de EasyFolderLock Pro
+* Versión de Windows
+* Pasos para reproducir el problema
+* Mensaje de error
+* Captura de pantalla, si es necesario
 
 > [!IMPORTANT]
-> **Privacidad:** Nunca adjuntes claves de licencia, contraseñas, archivos `.lock` personales ni información confidencial al reportar un problema.
+> Nunca publiques contraseñas ni archivos `.lock` que contengan información personal.
 
 ---
 
-# 📄 Licencia
-
-El software EasyFolderLock Pro es propiedad intelectual de **Escudo Digital SV**. Consulta el archivo de términos y condiciones incluido con el programa para obtener detalles sobre los derechos de uso y distribución.
-
----
+<div align="center">
 
 ## 🌐 Escudo Digital SV
 
-Desarrollado con ❤️ por **Escudo Digital SV**
-
+Desarrollado por **Escudo Digital SV**  
 🌐 Sitio web oficial: [escudodigitalsv.com](https://escudodigitalsv.com)
 
 © 2026 Escudo Digital SV. Todos los derechos reservados.
+
+</div>
