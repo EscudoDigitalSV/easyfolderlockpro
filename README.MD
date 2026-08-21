@@ -52,6 +52,7 @@ Se mejoró el sistema de selección de archivos `.lock` para facilitar la locali
 * 💡 El diálogo informa al usuario mediante un aviso de que los archivos ocultos también están visibles.
 * 🖱️ Se mejoró el tooltip del botón de selección para hacer más clara esta función.
 * 🔒 Se mantiene el funcionamiento normal de los archivos `.lock` y del sistema de cifrado.
+* 🛠️ Mejoras internas y de mantenimiento.
 
 Esta mejora está disponible en **EasyFolderLock y EasyFolderLock Pro**.
 
